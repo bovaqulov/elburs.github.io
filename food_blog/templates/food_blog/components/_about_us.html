@@ -1,0 +1,25 @@
+{% load static %}
+
+
+
+<section id="abouts" class="abouts">
+            <div class="container">
+                <div class="row">
+                    <div class="abouts_content">
+                        <div class="col-md-6">
+                            <div class="single_abouts_text text-center wow slideInLeft" data-wow-duration="1s">
+                                <img src="{{ about_main.about_image }}" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="single_abouts_text wow slideInRight" data-wow-duration="1s">
+                                <h4>Biz haqimizda</h4>
+                                <h3>{{ about_main.about_title }}</h3>
+                                <p>{{ about_main.about_text }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
